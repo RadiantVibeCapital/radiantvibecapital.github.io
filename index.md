@@ -1,27 +1,115 @@
-# RadiantVibe Capital Consortium
+---
+---
 
-Welcome to our official website.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RadiantVibe Capital Consortium</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; color:#1f2937; background:#ffffff; }
+    nav { display:flex; justify-content:space-between; align-items:center; padding:18px 8%; background:#06111f; color:white; }
+    nav img { height:48px; }
+    nav a { color:white; margin-left:24px; text-decoration:none; font-weight:600; }
+    .hero { min-height:82vh; background:linear-gradient(rgba(3,10,25,.68),rgba(3,10,25,.68)), url('hero.jpg') center/cover; display:flex; align-items:center; padding:0 8%; color:white; }
+    .hero-content { max-width:720px; }
+    .hero img { width:180px; margin-bottom:25px; }
+    h1 { font-size:52px; margin:0 0 20px; }
+    .hero p { font-size:22px; line-height:1.6; color:#dbeafe; }
+    .btn { display:inline-block; margin-top:20px; margin-right:12px; padding:14px 24px; background:#0ea5e9; color:white; text-decoration:none; border-radius:6px; font-weight:bold; }
+    .btn.secondary { background:transparent; border:1px solid white; }
+    section { padding:70px 8%; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+    .grid img { width:100%; border-radius:14px; }
+    h2 { font-size:36px; color:#082f49; }
+    p { font-size:18px; line-height:1.7; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+    .card { padding:28px; border-radius:14px; background:#f8fafc; box-shadow:0 6px 18px rgba(0,0,0,.06); }
+    .card h3 { color:#0369a1; }
+    footer { background:#06111f; color:white; padding:35px 8%; text-align:center; }
+    @media(max-width:800px){
+      .grid,.cards{grid-template-columns:1fr;}
+      h1{font-size:38px;}
+      nav{display:block;}
+      nav a{display:inline-block;margin:12px 12px 0 0;}
+    }
+  </style>
+</head>
+<body>
 
-## Company Overview
+<nav>
+  <div><img src="logo.png" alt="RadiantVibe Logo"></div>
+  <div>
+    <a href="#overview">Company Overview</a>
+    <a href="#faq">FAQ</a>
+    <a href="#news">News</a>
+    <a href="#insights">Insights</a>
+  </div>
+</nav>
 
-Learn more about our company, mission, and services.
+<div class="hero">
+  <div class="hero-content">
+    <img src="logo.png" alt="RadiantVibe Capital Consortium">
+    <h1>RadiantVibe Capital Consortium</h1>
+    <p>Strategic capital, institutional insight, and long-term value creation for a changing global economy.</p>
+    <a class="btn" href="#overview">Company Overview</a>
+    <a class="btn secondary" href="#insights">View Insights</a>
+  </div>
+</div>
 
-[Read more](company-overview.md)
+<section id="overview">
+  <div class="grid">
+    <div>
+      <h2>Company Overview</h2>
+      <p>RadiantVibe Capital Consortium is a strategic capital platform focused on investment opportunities, market intelligence, and sustainable long-term growth.</p>
+      <p>We combine financial discipline, global perspective, and forward-looking insight to support resilient value creation.</p>
+    </div>
+    <img src="office.jpg" alt="RadiantVibe Office">
+  </div>
+</section>
 
-## FAQ
+<section id="news">
+  <h2>Latest News</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Strategic Growth Update</h3>
+      <p>RadiantVibe continues to expand its research and investment capabilities.</p>
+    </div>
+    <div class="card">
+      <h3>Market Expansion</h3>
+      <p>Our team is exploring new opportunities across emerging and established markets.</p>
+    </div>
+    <div class="card">
+      <h3>Consortium Development</h3>
+      <p>New initiatives are being developed to strengthen long-term partnerships.</p>
+    </div>
+  </div>
+</section>
 
-Find answers to common questions.
+<section id="insights">
+  <div class="grid">
+    <img src="meeting.jpg" alt="RadiantVibe Meeting Room">
+    <div>
+      <h2>Insights</h2>
+      <p>Our insights focus on capital markets, global investment trends, innovation, and strategic business growth.</p>
+      <p>We provide perspectives designed for investors, founders, and institutional partners.</p>
+    </div>
+  </div>
+</section>
 
-[View FAQ](faq.md)
+<section id="faq">
+  <h2>FAQ</h2>
+  <div class="card">
+    <h3>What does RadiantVibe Capital Consortium do?</h3>
+    <p>We focus on strategic capital, investment insight, and long-term value creation.</p>
+    <h3>Who is this website for?</h3>
+    <p>Investors, business partners, founders, and organizations interested in strategic growth.</p>
+  </div>
+</section>
 
-## News
+<footer>
+  <p>© 2026 RadiantVibe Capital Consortium. All rights reserved.</p>
+</footer>
 
-Latest company updates and announcements.
-
-[Read News](news.md)
-
-## Insights
-
-Industry insights, guides, and expert articles.
-
-[Read Insights](insights.md)
+</body>
+</html>

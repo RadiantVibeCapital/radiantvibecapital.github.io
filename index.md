@@ -1,4 +1,4 @@
-# Your Company Name
+# RadiantVibe Capital Consortium
 
 Welcome to our official website.
 
